@@ -1,0 +1,29 @@
+{
+  "name": "3a-store-inventory",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Offline 3A STORE grocery inventory with React, Vite, Excel, Word and print exports",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview:build": "vite preview",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "format": "prettier --write index.html \"frontend/**/*.{js,jsx,css}\" *.config.mjs scripts/*.cjs \"tests/*.{js,jsx}\" package.json README.md",
+    "format:check": "prettier --check index.html \"frontend/**/*.{js,jsx,css}\" *.config.mjs scripts/*.cjs \"tests/*.{js,jsx}\" package.json README.md"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "jsdom": "^29.1.1",
+    "prettier": "3.6.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
